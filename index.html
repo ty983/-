@@ -1,7 +1,84 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页 | 沙奎成 Web作业</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", system-ui, sans-serif;
+        }
+        body {
+            background-color: #f1f3f7;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: #fff;
+            width: 100%;
+            max-width: 580px;
+            padding: 44px 36px;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.07);
+            text-align: center;
+        }
+        h1 {
+            font-size: 26px;
+            font-weight: 500;
+            letter-spacing:1px;
+            color:#1f2937;
+        }
+        .line {
+            width: 50px;
+            height:2px;
+            background:#374151;
+            margin:18px auto 28px;
+        }
+        .desc {
+            color:#4b5563;
+            font-size:16px;
+            line-height:1.7;
+            margin-bottom:32px;
+        }
+        .btn {
+            display: inline-block;
+            padding:14px 32px;
+            background-color:#273449;
+            color:white;
+            text-decoration:none;
+            border-radius:12px;
+            transition: 0.3s ease;
+        }
+        .btn:hover {
+            background-color:#475569;
+            transform: translateY(-2px);
+            box-shadow:0 6px 16px rgba(0,0,0,0.1);
+        }
+        .footer-tip {
+            margin-top:34px;
+            font-size:13px;
+            color:#9ca3af;
+        }
+    </style>
+</head>
 <body>
-    <h2>Web前端work1作业</h2>
-    <p><a href=" ">点击打开我的作业网页</a ></p >
+    <div class="container">
+        <h1>Web课程实践主页</h1>
+        <div class="line"></div>
+        <p class="desc">
+            姓名：沙奎成<br>
+            班级：计工本2504
+        </p >
+        <a class="btn" href=" ">查看作业页面</a >
+        <div class="footer-tip">
+            Powered by GitHub Pages
+        </div>
+    </div>
 </body>
 </html>
