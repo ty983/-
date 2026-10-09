@@ -3,22 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>我的第一个公开网页</title>
+    <title>Web作业 | 沙奎成</title>
     <style>
-        body {
-            background-color:#223344;
-            color:#ffffff;
-            font-family:Microsoft Yahei;
-            padding:30px;
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", system-ui, sans-serif;
         }
-        h1{
-            color:#ffdd55;
+        body {
+            background-color: #f7f8fa;
+            color: #222;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .card {
+            background: #ffffff;
+            width: 100%;
+            max-width: 620px;
+            padding: 48px 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+            transition: all 0.3s ease;
+        }
+        .card:hover {
+            box-shadow: 0 14px 50px rgba(0,0,0,0.12);
+        }
+        .title {
+            font-size: 28px;
+            font-weight: 500;
+            letter-spacing: 2px;
+            color: #1a1a1a;
+            margin-bottom:12px;
+        }
+        .divider {
+            width: 60px;
+            height:2px;
+            background:#334155;
+            margin:20px 0 30px;
+        }
+        .info-text {
+            font-size:16px;
+            line-height:1.8;
+            color:#475569;
+        }
+        .footer-note {
+            margin-top:36px;
+            font-size:14px;
+            color:#94a3b8;
         }
     </style>
 </head>
 <body>
-    <h1>欢迎访问我的网页</h1>
-    <p>这是通过GitHub Pages部署，全世界都可以访问的网页</p >
-    <p>web前端随堂作业 work1</p >
+    <div class="card">
+        <h1 class="title">Web课程作业</h1>
+        <div class="divider"></div>
+        <p class="info-text">
+            姓名：沙奎成<br>
+            班级：计工本2504<br>
+            提交时间：2026
+        </p >
+        <div class="footer-note">
+            GitHub Pages 课程实践
+        </div>
+    </div>
 </body>
 </html>
